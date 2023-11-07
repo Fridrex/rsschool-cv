@@ -6,7 +6,7 @@ Petro Bondarenko
 - Discord: fridrex
 
 ## Brief Self-Introduction
-I am a full-time student. I am passionate about Web-Development. I am proficient in the following programming languages, version control systems, and development tools: HTML, CSS, JS, Git
+I am a full-time student in a Web Development course at Glasgow Clyde College. I am passionate about Web and Mobile Development. I am proficient in the following programming languages, version control systems, and development tools: HTML, CSS, JS, Git.
 
 ## Skills
 - HTML, CSS, JS, SQL
