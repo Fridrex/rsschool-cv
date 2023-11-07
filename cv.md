@@ -16,3 +16,14 @@ I am a full-time student. I am passionate about Web-Development. I am proficient
 
 ## Code Examples
 - https://github.com/Fridrex/Rock_Paper_Scissors
+
+## Work Experience
+### MTBiz, Affiliate Marketing Manager, 2018-2019
+- Farming Google accounts, supervise other farmers, cooperate with designers, test new schemes
+
+## Education
+- HND, Web Development, Glasgow Clyde College, June 2025
+- Meta Front-End Developer, Coursera, February 2023
+
+## English Language
+- Proficient in English
