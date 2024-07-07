@@ -1,1 +1,1 @@
-# rsschool-cv
+https://fridrex.github.io/rsschool-cv/
