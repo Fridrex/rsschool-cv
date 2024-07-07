@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0;
 }
@@ -14,7 +16,7 @@ section {
     margin: 0 auto;
     text-align: center;
 
-    height: 300px;
+    height: 200px;
     width: 80%;
 
     display: flex;
@@ -47,6 +49,14 @@ footer {
     align-items: center;
 }
 
+#contact {
+    margin-top: 100px;
+}
+
+code {
+    display: block;
+}
+
 #rss_logo {
     height: 150px;
     width: 200px;
@@ -57,4 +67,10 @@ footer {
     width: 200px;
     border-radius: 50%;
     margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -45px;
 }
