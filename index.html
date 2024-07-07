@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>My Name</h1>
-        <nav>
-            <ul>
+        <img src="img/avatar.jpg" id="avatar" alt="A black-and-white photo of an elderly man in a formal suit and patterned tie.">
+        <h1>Petro Bondarenko</h1>
+        <nav class="nav_menu">
+            <ul class="nav_list">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -20,49 +23,68 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <h3>Job Title</h3>
-                    <h4>Company Name</h4>
-                    <p>Date Range</p>
-                    <ul>
-                        <li>Responsibility 1</li>
-                        <li>Responsibility 2</li>
-                        <li>Responsibility 3</li>
-                    </ul>
-                </li>
-            </ul>
+            <p>Hello, I'm a 26-year-old lad. I was interested in web development when I was in school. However, I didn't push myself enough to get anywhere. I learned HTML, CSS, and some JavaScript back then and then stopped. I got back to it in the second half of 2022 and pushed further, diving deep into JavaScript and learning React and Redux. However, I stopped again in 2023. Now, I'm back to this course to use it as a refresher and as a wee bit of motivation. I'm eager to continue my learning process.</p>
         </section>
         <section id="education">
             <h2>Education</h2>
             <ul>
                 <li>
-                    <h3>Degree</h3>
-                    <h4>Institution Name</h4>
-                    <p>Date Range</p>
+                    <h3>HND Web Development</h3>
+                    <h4>Glasgow Clyde College</h4>
+                    <p>2023-2025</p>
+                </li>
+                <li>
+                    <h3>English Upper-Intermediate</h3>
+                    <h4>City of Glasgow College</h4>
+                    <p>2022-2023</p>
                 </li>
             </ul>
         </section>
         <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Rock Paper Scissors</h3>
+                    <p>2022</p>
+                    <p><a href="https://github.com/Fridrex/Rock_Paper_Scissors">Code</a></p>
+                    <p><a href="https://fridrex.github.io/Rock_Paper_Scissors/">The game itself</a></p>
+                    <p><code><pre>function makeSelection(selection) {
+                        const computerSelection = random()
+                        const yourWinner = isWinner(selection, computerSelection)
+                        const computerWinner = isWinner(computerSelection, selection)
+
+                        addSelectionResult(computerSelection, computerWinner)
+                        addSelectionResult(selection, yourWinner)
+
+                        if (yourWinner) incrementScore(yourScoreSpan)
+                        if (computerWinner) incrementScore(computerScoreSpan)}</pre></code></p>
+                </li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
             <ul>
-                <li>Email: your.email@example.com</li>
-                <li>Phone: 123-456-7890</li>
-                <li>LinkedIn: <a href="#">Your LinkedIn Profile</a></li>
+                <li>Discord: fridrex</li>
+                <li>Email: <a href="mailto:">f1p0t5446whl@mail.ru</a></li>
+                <li>LinkedIn: I don't have a LinkedIn account yet</li>
+                <li>Instagram: <a href="https://www.instagram.com/fridrex0/?hl=en">fridrex0</a></li>
             </ul>
         </section>
     </main>
+    <footer>
+        <p><a href="https://github.com/Fridrex">My Github</a></p>
+        <p>Created in 2024</p>
+        <a href="https://rs.school/courses/javascript-ru"><img src="img/rsschool-logo.svg" id="rss_logo" alt="RSSchool logo in black and white"></a>
+    </footer>
 </body>
 </html>
