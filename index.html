@@ -58,16 +58,10 @@
                     <p>2022</p>
                     <p><a href="https://github.com/Fridrex/Rock_Paper_Scissors">Code</a></p>
                     <p><a href="https://fridrex.github.io/Rock_Paper_Scissors/">The game itself</a></p>
-                    <code><pre>function makeSelection(selection) {
-                        const computerSelection = random()
-                        const yourWinner = isWinner(selection, computerSelection)
-                        const computerWinner = isWinner(computerSelection, selection)
-
-                        addSelectionResult(computerSelection, computerWinner)
-                        addSelectionResult(selection, yourWinner)
-
-                        if (yourWinner) incrementScore(yourScoreSpan)
-                        if (computerWinner) incrementScore(computerScoreSpan)}</pre></code>
+                    <code>function random() {
+                            const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
+                            return SELECTIONS[randomIndex]
+                        }</code>
                 </li>
             </ul>
         </section>
